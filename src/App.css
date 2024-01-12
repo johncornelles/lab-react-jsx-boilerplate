@@ -1,1 +1,11 @@
-/* add your styles here */
+.gridHolder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+.gridHolder img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
